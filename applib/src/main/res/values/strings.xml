@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">ConfirmU</string>
+
+    <string name="facebook_app_id">236542666819558</string>
+    <string name="fb_login_protocol_scheme">fb236542666819558</string>
+    <string name="r_amount">₹ %d</string>
+    <string name="about">About</string>
+    <string name="confirmu_is_a_credit_score_provider">ConfirmU is a credit score provider…</string>
+    <string name="hey">Hey</string>
+    <string name="whats_name">What is your name?</string>
+    <string name="full_name">Please enter your full name. It should contain name and surname.</string>
+    <string name="profile_pic">Btw, if you click a circle with your initials, you may choose a profile pic</string>
+    <string name="email">What is your email?</string>
+    <string name="mobile_number">Please share your mobile number</string>
+    <string name="aadhar">Do you want to add AadHar info?</string>
+    <string name="social_account">Let\'s connect your social accounts</string>
+    <string name="no_social_account">No account? Don\'t worry! Let\'s enter info manually</string>
+    <string name="gender">What is your gender?</string>
+    <string name="choose_gender">Choose one of options</string>
+    <string name="marital_status">What is your marital status?</string>
+    <string name="choose_marital_status">Choose one of options</string>
+    <string name="age">How old are you?</string>
+    <string name="kids">How many kids do you have?</string>
+    <string name="job_skills">Can you please tell us your job specific skills? click me to add details</string>
+    <string name="what_for_living">Tell us what you do for living?</string>
+    <string name="want_to_add_job">Do you want to add another job?</string>
+    <string name="review_data">Review your data</string>
+    <string name="sure_to_submit">Are you ready to submit?</string>
+    <string name="do_you_like">Do you like it?</string>
+    <string name="no">No</string>
+    <string name="faq">FAQ</string>
+    <string name="result_description">Your current ConfirmU score is listed below - we recommend you connect additional social accounts and upload incremental data so we can calculate your score again.</string>
+    <string name="result_description_two">It may not help prevoious application but will surely help you nest time.</string>
+    <string name="word_count">word\ncount</string>
+    <string name="confirmu_nscore">ConfirmU\nScore</string>
+    <string name="social_accounts">Social\naccounts</string>
+    <string name="policy">Please read these terms and conditions("Terms", "Terms and Conditions") carefully before using the https://www.confirmu.com website (the "Service") operated by Confirmu limited ("us", "we", or "our"). Your access to and use of the service is coditioned on your acceptance of and compliance with these Terms. These terms applies to all visitors, users and others who access or use the Service. By accessing or using the service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</string>
+
+    <string-array name="questions">
+        <item>@string/hey</item>
+        <item>@string/whats_name</item>
+        <item>@string/full_name</item>
+        <item>@string/profile_pic</item>
+        <item>@string/email</item>
+        <item>@string/mobile_number</item>
+        <item>@string/aadhar</item>
+        <item>@string/social_account</item>
+        <item>@string/no_social_account</item>
+        <item>@string/gender</item>
+        <item>@string/choose_gender</item>
+        <item>@string/marital_status</item>
+        <item>@string/choose_marital_status</item>
+        <item>@string/age</item>
+        <item>@string/kids</item>
+        <item>@string/job_skills</item>
+        <item>@string/what_for_living</item>
+        <item>@string/want_to_add_job</item>
+    </string-array>
+
+    <string-array name="review_questions">
+        <item>@string/review_data</item>
+        <item>@string/do_you_like</item>
+        <item>@string/sure_to_submit</item>
+    </string-array>
+
+    <string name="pin_content_desc">PIN input field</string>
+
+    <string name="pin_label_text">PIN</string>
+    <string name="verification_id">verification_id</string>
+    <string name="bundle">bundle</string>
+    <string name="please_type">Please Type the Verification Code  Sent to %s</string>
+    <string name="please_type_mobile_number">Please Type Your Mobile Number\nto Get OTP</string>
+    <string name="get_started">Get Started</string>
+    <string name="please_enter_your_mobile_number">Please Enter Your Mobile Number</string>
+    <string name="title_activity_language_selection">activity_language_selection</string>
+    <string name="title_activity_lang">LangActivity</string>
+
+    <!--<string name="btn_en" translatable="false">English</string>-->
+    <!--<string name="btn_hi" translatable="false">हिन्दी</string>-->
+    <!--<string name="btn_es" translatable="false">Español</string>-->
+    <!--<string name="btn_in" translatable="false">Bahasa Indonesia</string>-->
+    <!--<string name="select_lang_text" translatable="false">Select your preferred language</string>-->
+    <string name="enable_sms_service">Enable SMS Service</string>
+    <string name="enable_geo_location">Enable Geo Location</string>
+
+    <string name="valid_all_fields">Please fill all fields</string>
+    <string name="valid_date">Date format should be MM.YYYY</string>
+    <string name="valid_start_date">Please enter valid start date</string>
+    <string name="valid_end_date">Please enter valid end date</string>
+
+    <string name="send_otp">Send OTP</string>
+    <string name="lets_go">Let's Go</string>
+
+    <string name="type_otp_here">Type OTP Here</string>
+    <string name="resend">RESEND</string>
+    <string name="no_otp_code">Didn\'t get the code?</string>
+    <string name="yes">Yes</string>
+    <string name="check_jobs">Check jobs</string>
+
+    <string name="my_loan">My Loan</string>
+    <string name="amount_requested">Amount Requested</string>
+    <string name="monthly_repayment">Monthly Repayment</string>
+    <string name="loan_length">Loan Length</string>
+    <string name="home_loan">Home Loan</string>
+    <string name="wedding_loan">Wedding Loan</string>
+    <string name="car_loan">Car Loan</string>
+    <string name="wheeler_loan">Wheeler Loan</string>
+    <string name="text_continue">Continue</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="cancel">Cancel</string>
+    <string name="married">Married</string>
+    <string name="single">single</string>
+    <string name="divorced">Divorced</string>
+    <string name="monthly_payment">Monthly Payment</string>
+
+    <string name="intro_1_title">Welcome to ConfurmU - Your path to a loan approval</string>
+    <string name="intro_1_subtitle">Please take a few minutes to provide the needed info for your loan application</string>
+    <string name="intro_2_title">SMS Permission</string>
+    <string name="intro_2_subtitle">We create financial profile of unbanked people for the first time by parsing their payments sms message</string>
+    <string name="intro_3_title">Geo Location Permission</string>
+    <string name="intro_3_subtitle">By extracting geolocation history we are able to infer person location in correlation with social demographic indicators and his financial capability to travel</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_months">MONTHS</string>
+
+    <string name="add_skills">Add your skills</string>
+    <string name="enter_skill">Start entering the skill</string>
+    <string name="message_hint">Type your message here</string>
+    <string name="text_connect">Connect: </string>
+    <string name="aadhar_added">Aadhar info added.</string>
+    <string name="save_position">Save Position</string>
+
+    <string name="text_marital_status">Marital Status</string>
+    <string name="text_name">Name</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_age">Age</string>
+    <string name="text_kids">Kids</string>
+    <string name="text_email">Email</string>
+    <string name="text_score">Score</string>
+    <string name="text_refresh">REFRESH</string>
+    <string name="text_proceed">PROCEED</string>
+
+    <string name="result_thanks">Thanks for taking the time with us!</string>
+    <string name="result_analysis">Our analysis shows that you are eligible to</string>
+
+
+</resources>

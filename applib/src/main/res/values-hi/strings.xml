@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">ConfirmU</string>
+
+    <string name="facebook_app_id">236542666819558</string>
+    <string name="fb_login_protocol_scheme">fb236542666819558</string>
+    <string name="r_amount">₹ %d</string>
+    <string name="about">हमारे बारे में</string>
+    <string name="confirmu_is_a_credit_score_provider">ConfirmU एक क्रेडिट स्कोर प्रदाता है…</string>
+    <string name="hey">नमस्ते</string>
+    <string name="whats_name">आपका नाम क्या है?</string>
+    <string name="full_name">कृपया आपका पूरा नाम प्रविष्ट कीजिए।</string>
+    <string name="profile_pic">यदि आप अपने प्रारंभिक के साथ एक सर्कल पर क्लिक करते हैं, तो आप एक प्रोफाइल तस्वीर चुन सकते हैं</string>
+    <string name="email">अापका ईमेल क्या है?</string>
+    <string name="mobile_number">कृपया अपना मोबाइल नंबर साझा करें</string>
+    <string name="aadhar">क्या आप आधार जानकारी जोड़ना चाहते हैं?</string>
+    <string name="social_account">अपने सोशल अकाउंट्स को कनेक्ट करें</string>
+    <string name="no_social_account">कोई खाता नहीं? चिंता मत करो! आइए जानकारी मैन्युअल रूप से दर्ज करें</string>
+    <string name="gender">आपका लिंग क्या है?</string>
+    <string name="choose_gender">विकल्पों में से एक चुनें</string>
+    <string name="marital_status">आपकी वैवाहिक स्थिति क्या है?</string>
+    <string name="choose_marital_status">विकल्पों में से एक चुनें</string>
+    <string name="age">आप की उम्र क्या है?</string>
+    <string name="kids">आपके कितने बच्चे हैं?</string>
+    <string name="job_skills">क्या आप कृपया हमें अपना काम विशिष्ट कौशल बता सकते हैं? विवरण जोड़ने के लिए मुझे क्लिक करें</string>
+    <string name="what_for_living">हमें बताएं कि आप रहने के लिए क्या करते हैं?</string>
+    <string name="want_to_add_job">क्या आप एक और नौकरी जोड़ना चाहते हैं?</string>
+    <string name="review_data">अपने डेटा की समीक्षा करें</string>
+    <string name="sure_to_submit">क्या आप जमा करने के लिए तैयार हैं?</string>
+    <string name="do_you_like">क्या आपको यह पसंद है?</string>
+    <string name="no">नहीं</string>
+    <string name="faq">सामान्य प्रश्न</string>
+    <string name="result_description">आपका वर्तमान ConfirmU स्कोर नीचे सूचीबद्ध है - हम अनुशंसा करते हैं कि आप अतिरिक्त सामाजिक खाते कनेक्ट करें और वृद्धिशील डेटा अपलोड करें ताकि हम आपके स्कोर की गणना कर सकें।</string>
+    <string name="result_description_two">यह पिछले एप्लिकेशन की मदद नहीं कर सकता है लेकिन अगली बार आपकी मदद करेगा।</string>
+    <string name="word_count">शब्द\nगणना</string>
+    <string name="confirmu_nscore">ConfirmU\nस्कोर</string>
+    <string name="social_accounts">सामाजिक\nखाते</string>
+    <string name="policy">Confirmu सीमित ("हमें", "हम" द्वारा संचालित https://www.confirmu.com वेबसाइट ("सेवा") का उपयोग करने से पहले कृपया इन नियमों और शर्तों ("शर्तें", "नियम और शर्तें") को ध्यान से पढ़ें, या "हमारा")। सेवा की आपकी पहुंच और उपयोग इन शर्तों के अनुमोदन और अनुपालन पर कोड किया गया है। ये शर्तें सभी आगंतुकों, उपयोगकर्ताओं और अन्य लोगों पर लागू होती हैं जो सेवा का उपयोग या उपयोग करते हैं। सेवा का उपयोग या उपयोग करके आप इन शर्तों से बाध्य होने के लिए सहमत हैं। यदि आप शर्तों के किसी भी हिस्से से असहमत हैं तो आप सेवा तक नहीं पहुंच सकते हैं।</string>
+
+    <string-array name="questions">
+        <item>@string/hey</item>
+        <item>@string/whats_name</item>
+        <item>@string/full_name</item>
+        <item>@string/profile_pic</item>
+        <item>@string/email</item>
+        <item>@string/mobile_number</item>
+        <item>@string/aadhar</item>
+        <item>@string/social_account</item>
+        <item>@string/no_social_account</item>
+        <item>@string/gender</item>
+        <item>@string/choose_gender</item>
+        <item>@string/marital_status</item>
+        <item>@string/choose_marital_status</item>
+        <item>@string/age</item>
+        <item>@string/kids</item>
+        <item>@string/job_skills</item>
+        <item>@string/what_for_living</item>
+        <item>@string/want_to_add_job</item>
+    </string-array>
+
+    <string-array name="review_questions">
+        <item>@string/review_data</item>
+        <item>@string/do_you_like</item>
+        <item>@string/sure_to_submit</item>
+    </string-array>
+
+    <string name="pin_content_desc">पिन इनपुट फ़ील्ड</string>
+
+    <string name="pin_label_text">पिन</string>
+    <string name="verification_id">सत्यापन_आईडी</string>
+    <string name="bundle">बंडल</string>
+    <string name="please_type">कृपया भेजा गया सत्यापन कोड टाइप करें %s</string>
+    <string name="please_type_mobile_number">ओटीपी प्राप्त करने के लिए कृपया अपना मोबाइल नंबर टाइप करें</string>
+    <string name="get_started">शुरू करें</string>
+    <string name="please_enter_your_mobile_number">अपना मोबाइल नंबर दर्ज करें</string>
+    <string name="title_activity_language_selection">गतिविधि_भाषा_चयन</string>
+    <string name="title_activity_lang">भाषा_गतिविधि</string>
+
+    <!--<string name="btn_en">English</string>-->
+    <!--<string name="btn_hi">हिन्दी</string>-->
+    <!--<string name="btn_es">Español</string>-->
+    <!--<string name="btn_in">Bahasa Indonesia</string>-->
+    <!--<string name="select_lang_text">अपनी पसंदीदा भाषा का चयन करें</string>-->
+    <string name="enable_sms_service">एसएमएस सेवा सक्षम करें</string>
+    <string name="enable_geo_location">भौगोलिक स्थान सक्षम करें</string>
+
+    <string name="valid_all_fields">Please fill all fields</string>
+    <string name="valid_date">Date format should be MM.YYYY</string>
+    <string name="valid_start_date">Please enter valid start date</string>
+    <string name="valid_end_date">Please enter valid end date</string>
+
+    <string name="send_otp">ओटीपी भेजें</string>
+    <string name="lets_go">चलो</string>
+
+    <string name="type_otp_here">यहां ओटीपी टाइप करें</string>
+    <string name="resend">पुन: भेजें</string>
+    <string name="no_otp_code">कोड नहीं मिला?</string>
+    <string name="yes">हाँ</string>
+    <string name="check_jobs">नौकरियों की जांच करें</string>
+
+    <string name="my_loan">मेरा ऋण</string>
+    <string name="amount_requested">अनुरोधित मात्रा</string>
+    <string name="monthly_repayment">मासिक पुनर्भुगतान</string>
+    <string name="loan_length">ऋण की लंबाई</string>
+    <string name="home_loan">गृह ऋण</string>
+    <string name="wedding_loan">शादी का ऋण</string>
+    <string name="car_loan">कार ऋण</string>
+    <string name="wheeler_loan">व्हीलर ऋण</string>
+    <string name="text_continue">जारी रखें</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="cancel">नहीं</string>
+    <string name="married">विवाहित</string>
+    <string name="single">अविवाहित</string>
+    <string name="divorced">तलाकशुदा</string>
+    <string name="monthly_payment">मासिक भुगतान</string>
+
+    <string name="intro_1_title">ConfurmU में आपका स्वागत है - ऋण अनुमोदन के लिए आपका रास्ता</string>
+    <string name="intro_1_subtitle">कृपया अपने ऋण आवेदन के लिए आवश्यक जानकारी प्रदान करने के लिए कुछ मिनट दें</string>
+    <string name="intro_2_title">एसएमएस अनुमति</string>
+    <string name="intro_2_subtitle">हम अपने भुगतान एसएमएस संदेश को पार्स करके पहली बार असंबद्ध लोगों की वित्तीय प्रोफ़ाइल बनाते हैं</string>
+    <string name="intro_3_title">भौगोलिक स्थान अनुमति</string>
+    <string name="intro_3_subtitle">भौगोलिक स्थान इतिहास निकालने से हम सामाजिक जनसांख्यिकीय संकेतकों और यात्रा के लिए उनकी वित्तीय क्षमता के साथ सहसंबंध में व्यक्ति स्थान का अनुमान लगा सकते हैं</string>
+    <string name="text_submit">जमा करें</string>
+    <string name="text_months">महीने</string>
+
+    <string name="add_skills">अपने कौशल जोड़ें</string>
+    <string name="enter_skill">कौशल डालना प्रारंभ करें</string>
+    <string name="message_hint">अपना संदेश यहां लिखो</string>
+
+    <string name="text_connect">जुडिये: </string>
+    <string name="aadhar_added">आधार जानकारी जोड़ा गया</string>
+    <string name="save_position">स्तिथि सहेजे</string>
+
+    <string name="text_marital_status">वैवाहिक स्थिति</string>
+    <string name="text_name">नाम</string>
+    <string name="text_gender">लिंग</string>
+    <string name="text_age">आयु</string>
+    <string name="text_kids">बच्चे</string>
+    <string name="text_email">ईमेल</string>
+    <string name="text_score">स्कोर</string>
+    <string name="text_refresh">पुनश्चर्या</string>
+    <string name="text_proceed">आगे बढ़ें</string>
+
+    <string name="result_thanks">हमारे साथ समय देने के लिए धन्यवाद!</string>
+    <string name="result_analysis">हमारे विश्लेषण से पता चलता है कि आप पात्र हैं</string>
+</resources>

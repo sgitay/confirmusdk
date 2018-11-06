@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">ConfirmU</string>
+
+    <string name="facebook_app_id">236542666819558</string>
+    <string name="fb_login_protocol_scheme">fb236542666819558</string>
+    <string name="r_amount">Rp %d</string>
+    <string name="about">Tentang</string>
+    <string name="confirmu_is_a_credit_score_provider">ConfirmU adalah penyedia skor kredit…</string>
+    <string name="hey">Hai</string>
+    <string name="whats_name">Siapa nama Anda?</string>
+    <string name="full_name">Harap masukkan nama lengkap Anda. Harus diisi nama depan dan nama belakang.</string>
+    <string name="profile_pic">Btw, jika mengeklik lingkaran dengan inisial Anda, Anda dapat memilih gambar profil</string>
+    <string name="email">Apa email Anda?</string>
+    <string name="mobile_number">Harap bagikan nomor ponsel Anda</string>
+    <string name="aadhar">Anda ingin menambahkan info AadHar?</string>
+    <string name="social_account">Hubungkan akun sosial Anda</string>
+    <string name="no_social_account">Tidak ada akun? Jangan khawatir! Masukkan info secara manual</string>
+    <string name="gender">Apa jenis kelamin Anda?</string>
+    <string name="choose_gender">Pilih salah satu opsi</string>
+    <string name="marital_status">Apa status pernikahan Anda?</string>
+    <string name="choose_marital_status">Pilih salah satu opsi</string>
+    <string name="age">Berapa usia Anda?</string>
+    <string name="kids">Berapa anak yang Anda miliki?</string>
+    <string name="job_skills">Bisakah Anda memberi tahu kami keterampilan Anda yang terkait dengan pekerjaan? Klik untuk menambahkan detail</string>
+    <string name="what_for_living">Beri tahu kami pekerjaan Anda</string>
+    <string name="want_to_add_job">Anda ingin menambahkan pekerjaan lain?</string>
+    <string name="review_data">Tinjau data Anda</string>
+    <string name="sure_to_submit">Anda siap mengirimkan?</string>
+    <string name="do_you_like">Anda menyukainya?</string>
+    <string name="no">Tidak</string>
+    <string name="faq">FAQ</string>
+    <string name="result_description">Skor ConfirmU Anda saat ini ada di bawah ini - kami menyarankan Anda untuk menghubungkan akun sosial lain dan mengunggah data tambahan sehingga kami dapat menghitung skor Anda lagi.</string>
+    <string name="result_description_two">Informasi ini mungkin tidak membantu aplikasi Anda sebelumnya, namun akan membantu lain kali.</string>
+    <string name="word_count">jumlah\nkata</string>
+    <string name="confirmu_nscore">Skor\nConfirmU</string>
+    <string name="social_accounts">Akun\nsosial</string>
+    <string name="policy">Harap baca syarat dan ketentuan ini ("Syarat", "Syarat dan Ketentuan") dengan saksama sebelum menggunakan situs web https://www.confirmu.com ("Layanan") yang dioperasikan oleh ConfirmU terbatas ("kami", "kita", atau "milik kami"). Akses dan penggunaan Anda atas layanan dikondisikan berdasarkan penerimaan akan dan kepatuhan Anda pada Syarat ini. Syarat ini berlaku untuk semua pengunjung, pengguna, dan orang yang mengakses atau menggunakan Layanan. Dengan mengakses atau menggunakan layanan, Anda setuju untuk terikat dengan Syarat ini. Jika Anda tidak setuju dengan salah satu bagian syarat ini, Anda tidak diperbolehkan mengakses Layanan.</string>
+
+    <string-array name="questions">
+        <item>@string/hey</item>
+        <item>@string/whats_name</item>
+        <item>@string/full_name</item>
+        <item>@string/profile_pic</item>
+        <item>@string/email</item>
+        <item>@string/mobile_number</item>
+        <item>@string/aadhar</item>
+        <item>@string/social_account</item>
+        <item>@string/no_social_account</item>
+        <item>@string/gender</item>
+        <item>@string/choose_gender</item>
+        <item>@string/marital_status</item>
+        <item>@string/choose_marital_status</item>
+        <item>@string/age</item>
+        <item>@string/kids</item>
+        <item>@string/job_skills</item>
+        <item>@string/what_for_living</item>
+        <item>@string/want_to_add_job</item>
+    </string-array>
+
+    <string-array name="review_questions">
+        <item>@string/review_data</item>
+        <item>@string/do_you_like</item>
+        <item>@string/sure_to_submit</item>
+    </string-array>
+
+    <string name="pin_content_desc">kotak isian PIN</string>
+
+    <string name="pin_label_text">PIN</string>
+    <string name="verification_id">verifikasi_id</string>
+    <string name="bundle">paket</string>
+    <string name="please_type">Harap Masukkan Kode Verifikasi yang Dikirimkan ke %s</string>
+    <string name="please_type_mobile_number">Harap Masukkan Nomor Ponsel Anda untuk Mendapatkan OTP</string>
+    <string name="get_started">Mulai</string>
+    <string name="please_enter_your_mobile_number">Harap Masukkan Nomor Ponsel Anda</string>
+    <string name="title_activity_language_selection">pilihan_bahasa_aktivitas</string>
+    <string name="title_activity_lang">AktivitasBhs</string>
+
+    <string name="btn_en">Bahasa Inggris</string>
+    <string name="btn_hi">हिन्दी</string>
+    <string name="select_lang_text">Pilih bahasa Anda</string>
+    <string name="enable_sms_service">Aktifkan Layanan SMS</string>
+    <string name="enable_geo_location">Aktifkan Geolokasi</string>
+
+    <string name="valid_all_fields">Harap isi semua bidang</string>
+    <string name="valid_date">Format tanggal seharusnya MM.YYYY</string>
+    <string name="valid_start_date">Harap masukkan tanggal awal yang valid</string>
+    <string name="valid_end_date">Harap masukkan tanggal akhir yang valid</string>
+
+    <string name="send_otp">Kirim OTP</string>
+    <string name="lets_go">Mulai</string>
+
+    <string name="type_otp_here">Masukkan OTP di Sini</string>
+    <string name="resend">KIRIM ULANG</string>
+    <string name="no_otp_code">Tidak mendapat kode?</string>
+    <string name="yes">Ya</string>
+    <string name="check_jobs">Cek pekerjaan</string>
+
+    <string name="my_loan">Pinjaman Saya</string>
+    <string name="amount_requested">Jumlah yang Diminta</string>
+    <string name="monthly_repayment">Cicilan Bulanan</string>
+    <string name="loan_length">Lama Pinjaman</string>
+    <string name="home_loan">Pinjaman Rumah</string>
+    <string name="wedding_loan">Pinjaman Pernikahan</string>
+    <string name="car_loan">Pinjaman Mobil</string>
+    <string name="wheeler_loan">Pinjaman Sepeda Motor</string>
+    <string name="text_continue">Lanjutkan</string>
+    <string name="male">Pria</string>
+    <string name="female">Wanita</string>
+    <string name="cancel">Batalkan</string>
+    <string name="married">Menikah</string>
+    <string name="single">Lajang</string>
+    <string name="divorced">Cerai</string>
+    <string name="monthly_payment">Pembayaran Bulanan</string>
+
+    <string name="intro_1_title">Selamat Datang di ConfirmU - Jalur Anda menuju persetujuan pinjaman</string>
+    <string name="intro_1_subtitle">Harap luangkan beberapa menit guna memberikan info yang diperlukan untuk aplikasi pinjaman Anda</string>
+    <string name="intro_2_title">Izin SMS</string>
+    <string name="intro_2_subtitle">Kami menciptakan profil finansial pertama kalinya bagi orang yang tidak menggunakan bank dengan menguraikan pesan sms pembayaran mereka</string>
+    <string name="intro_3_title">Izin Geolokasi</string>
+    <string name="intro_3_subtitle">Dengan mengekstrak riwayat geolokasi, kami dapat menyimpulkan lokasi orang dalam kaitannya dengan indikator demografis sosial dan kemampuan finansialnya untuk bepergian</string>
+    <string name="text_submit">Kirim</string>
+    <string name="text_months">BULAN</string>
+
+    <string name="add_skills">Tambahkan keterampilan Anda</string>
+    <string name="enter_skill">Mulailah memasukkan keterampilan</string>
+    <string name="message_hint">Tuliskan pesan Anda di sini</string>
+    <string name="text_connect">Hubungkan: </string>
+    <string name="aadhar_added">Info Aadhar ditambahkan.</string>
+    <string name="save_position">Simpan Posisi</string>
+
+    <string name="text_marital_status">Status Pernikahan</string>
+    <string name="text_name">Nama</string>
+    <string name="text_gender">Jenis Kelamin</string>
+    <string name="text_age">Umur</string>
+    <string name="text_kids">Anak</string>
+    <string name="text_email">Email</string>
+    <string name="text_score">Skor</string>
+    <string name="text_refresh">SEGARKAN</string>
+    <string name="text_proceed">LANJUTKAN</string>
+
+    <string name="result_thanks">Terima kasih telah meluangkan waktu bersama kami!</string>
+    <string name="result_analysis">Analisis kami menunjukkan bahwa Anda memenuhi syarat untuk</string>
+
+
+</resources>

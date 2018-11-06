@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/selected_bg_img"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="7dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/first_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Industry"
+                    android:padding="10dp" />
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:id="@+id/tv_industry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Defence Service"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:drawableEnd="@drawable/ic_arrow_drop"/>
+
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Company Name"
+                    android:padding="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Job Title"
+                    android:padding="10dp" />
+                <com.confirmu.up.custom_views.RegularEditText
+                    android:id="@+id/et_job_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    android:textColor="@color/black" />
+
+                <com.confirmu.up.custom_views.RegularEditText
+                    android:id="@+id/et_company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second_lay"
+            android:layout_below="@+id/first_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Start date"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+                <com.confirmu.up.custom_views.RegularEditText
+                    android:id="@+id/et_start_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:hint="MM.YYYY"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    android:maxLength="7"
+                    android:textColor="@color/black"
+                    android:inputType="date"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="End date"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+                <com.confirmu.up.custom_views.RegularEditText
+                    android:id="@+id/et_end_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:hint="MM.YYYY"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    android:maxLength="7"
+                    android:textColor="@color/black"
+                    android:inputType="date"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Current"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+                <CheckBox
+                    android:id="@+id/cb_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second_lay"
+            android:layout_marginTop="10dp">
+            <com.confirmu.up.custom_views.SemiBoldTextView
+                android:id="@+id/tv_save_position"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:text="@string/save_position"
+                android:gravity="center"
+                android:textSize="16sp"/>
+            <com.confirmu.up.custom_views.SemiBoldTextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:text="@string/cancel"
+                android:gravity="center"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="3dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_loans"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#00000000"/>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

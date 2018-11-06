@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selected_bg_img"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.confirmu.up.custom_views.RegularTextView
+        android:id="@+id/tv_married"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choose_option_ripple"
+        android:text="@string/married"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="36dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <com.confirmu.up.custom_views.RegularTextView
+        android:id="@+id/tv_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choose_option_ripple"
+        android:text="@string/single"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="36dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+
+    <com.confirmu.up.custom_views.RegularTextView
+        android:id="@+id/tv_divorced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choose_option_ripple"
+        android:text="@string/divorced"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="36dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/header_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_menu"
+            android:padding="10dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="rotate"/>
+
+        <com.confirmu.up.custom_views.SemiBoldTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_lay"
+        android:layout_above="@+id/bottom_lay"/>
+
+    <RelativeLayout
+        android:id="@+id/bottom_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <com.confirmu.up.custom_views.RegularEditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/message_box_border"
+            android:hint="@string/message_hint"
+            android:maxLines="5"
+            android:minHeight="40dp"
+            android:maxHeight="100dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="10dp"
+            android:textSize="15sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_toStartOf="@+id/btn_send"
+            android:inputType="textMultiLine|textCapSentences"
+            />
+
+        <ImageView
+            android:id="@+id/btn_send"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/ic_send"
+            android:contentDescription="@string/app_name"
+            android:onClick="addAnswerToChat"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/transparent_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c6000000"
+        android:layout_below="@+id/header_lay" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="0dp"
+        android:layout_below="@+id/header_lay"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+            <com.confirmu.up.custom_views.RegularTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_about_us"
+                android:text="@string/about"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:onClick="goToAboutUs"/>
+            <com.confirmu.up.custom_views.RegularTextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_faq"
+                android:text="@string/faq"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:onClick="goToFAQ"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

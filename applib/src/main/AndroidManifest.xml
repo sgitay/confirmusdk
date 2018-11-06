@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.confirmu">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-permission android:name="android.permission.READ_SMS"/> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <uses-permission-sdk-23 android:name="android.permission.READ_SMS" />
+
+    <!--<application-->
+        <!--android:allowBackup="true"-->
+        <!--android:icon="@drawable/ic_app_icon"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:roundIcon="@drawable/ic_app_icon"-->
+        <!--android:supportsRtl="true"-->
+        <!--android:theme="@style/AppTheme">-->
+        <!--<activity-->
+            <!--android:name=".up.LangActivity"-->
+            <!--android:screenOrientation="portrait">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name=".up.HomeActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name=".up.ChatActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="adjustResize" />-->
+        <!--<activity-->
+            <!--android:name=".up.utils.AboutActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name="com.theartofdev.edmodo.cropper.CropImageActivity"-->
+            <!--android:theme="@style/Base.Theme.AppCompat" />-->
+
+        <!--<meta-data-->
+            <!--android:name="com.facebook.sdk.ApplicationId"-->
+            <!--android:value="@string/facebook_app_id" />-->
+
+        <!--<activity-->
+            <!--android:name=".up.FaqActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name=".up.JobsActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name=".up.RegistrationActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name=".up.CountryCodeActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateHidden" />-->
+        <!--<activity-->
+            <!--android:name=".up.OTPActivity"-->
+            <!--android:screenOrientation="portrait" />-->
+
+        <!--<meta-data-->
+            <!--android:name="io.fabric.ApiKey"-->
+            <!--android:value="4f31ec9d901988432164f2584ffc26e450ddb74a" />-->
+
+        <!--<activity-->
+            <!--android:name=".up.IntroActivity"-->
+            <!--android:label="@string/title_activity_lang"-->
+            <!--android:theme="@style/AppTheme"></activity>-->
+    <!--</application>-->
+
+</manifest>

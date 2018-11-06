@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".up.JobsActivity">
+
+    <RelativeLayout
+        android:id="@+id/header_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_arrow_back"
+            android:padding="10dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="back"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/exp_lay"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/header_lay">
+
+        <ImageView
+            android:id="@+id/iv_loan_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/home"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+            <com.confirmu.up.custom_views.RegularTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Great! You have total experience"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/circle"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <com.confirmu.up.custom_views.SemiBoldTextView
+                    android:id="@+id/tv_years"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="42sp"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+                <com.confirmu.up.custom_views.SemiBoldTextView
+                    android:id="@+id/tv_amount_passed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Years"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/exp_lay"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false"/>
+
+
+
+
+</RelativeLayout>

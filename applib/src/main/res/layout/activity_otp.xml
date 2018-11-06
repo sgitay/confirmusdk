@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <RelativeLayout
+        android:id="@+id/header_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<TextView
+            android:id="@+id/tv_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verification"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="21sp"/>-->
+
+
+
+        <com.confirmu.up.custom_views.SemiBoldTextView
+            android:id="@+id/tv_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_type"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/middle_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_lay"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp">
+
+        <com.confirmu.up.custom_views.SemiBoldTextView
+            android:id="@+id/tv_type_here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_otp_here"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/tv_type_here"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:id="@+id/pin_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="-5dp">
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/pin_first_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/pin_second_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/pin_third_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/pin_forth_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/pin_fifth_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/pin_sixth_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="24dp"
+                    android:visibility="gone">
+                    <TextView
+                        android:id="@+id/tv_timer"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginEnd="16dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/pin_hidden_edittext"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:maxLength="6"
+                android:cursorVisible="false"
+                android:textColor="#00000000"
+                android:contentDescription="@string/pin_content_desc" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/middle_lay"
+        android:layout_marginTop="70dp">
+
+        <com.confirmu.up.custom_views.RegularTextView
+            android:id="@+id/btn_go"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:text="@string/text_submit"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_button_drawable" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/middle_lay"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <com.confirmu.up.custom_views.RegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:text="@string/no_otp_code"/>
+
+        <com.confirmu.up.custom_views.RegularTextView
+            android:id="@+id/btn_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/header_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_arrow_back"
+            android:padding="10dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="back"/>
+
+        <com.confirmu.up.custom_views.RegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <com.confirmu.up.custom_views.SemiBoldTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+    <com.confirmu.up.custom_views.RegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmu_is_a_credit_score_provider"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <com.confirmu.up.custom_views.RegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ConfirmU"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/ic_fb"
+        android:drawablePadding="20dp"
+        android:padding="10dp"
+        android:onClick="fb"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#D2D2D2"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <com.confirmu.up.custom_views.RegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRMU"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:drawableStart="@drawable/ic_linkedin_logo"
+        android:drawablePadding="20dp"
+        android:padding="10dp"
+        android:onClick="linkedIn"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#D2D2D2"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <com.confirmu.up.custom_views.RegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="confirmu2"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:drawableStart="@drawable/ic_twiter"
+        android:drawablePadding="20dp"
+        android:padding="10dp"
+        android:onClick="twitter"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#D2D2D2"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+
+
+</LinearLayout>

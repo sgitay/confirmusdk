@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">ConfirmU</string>
+
+    <string name="facebook_app_id">236542666819558</string>
+    <string name="fb_login_protocol_scheme">fb236542666819558</string>
+    <string name="r_amount">Euro %d</string>
+    <string name="about">Acerca de</string>
+    <string name="confirmu_is_a_credit_score_provider">ConfirmU es un proveedor de puntaje crediticio…</string>
+    <string name="hey">Hola</string>
+    <string name="whats_name">Cuál es tu nombre?</string>
+    <string name="full_name">Por favor introduce tu nombre completo. Necesitamos tu nombre y apellido.</string>
+    <string name="profile_pic">Por cierto, si haces click en el circulo con tus iniciales, puedes escoger una foto de perfil</string>
+    <string name="email">Cuál es tu Email?</string>
+    <string name="mobile_number">Por favor introduce tu número de celular</string>
+    <string name="aadhar">Te gustaría agregar tu información de AadHar?</string>
+    <string name="social_account">Conectémos tus redes sociales</string>
+    <string name="no_social_account">No tienes cuenta? No te preocupes! Introduce tu información manualmente</string>
+    <string name="gender">Cuál es tu género?</string>
+    <string name="choose_gender">Escoge una de las opciones</string>
+    <string name="marital_status">Estado civil?</string>
+    <string name="choose_marital_status">Escoge una de las opciones</string>
+    <string name="age">Cuántos años tienes?</string>
+    <string name="kids">Cuántos hijos tienes?</string>
+    <string name="job_skills">Podrías contarnos sobre tu trabajo, habilidades específicas? haz click para agregar detalles</string>
+    <string name="what_for_living">Qué haces para ganarte la vida?</string>
+    <string name="want_to_add_job">Te gustaría agregar otro trabajo?</string>
+    <string name="review_data">Revisa tu información</string>
+    <string name="sure_to_submit">Listo para enviarla?</string>
+    <string name="do_you_like">Te gustó?</string>
+    <string name="no">No</string>
+    <string name="faq">FAQ</string>
+    <string name="result_description">Tu puntaje de ConfirmU está detallado abajo - le recomendamos que conecte sus cuentas sociales y cargue sus datos para poder calcular su puntaje nuevamente.</string>
+    <string name="result_description_two">Puede que no ayude a la aplicación anterior, pero seguramente lo ayudará para la próxima.</string>
+    <string name="word_count">número de\npalabras</string>
+    <string name="confirmu_nscore">Puntaje\nConfirmU</string>
+    <string name="social_accounts">Cuentas\nsociales</string>
+    <string name="policy">Por favor lee los términos y condiciones("Términos", "Términos y Condiciones") cuidadosamente antes de usar el sitio https://www.confirmu.com (el "Servidor") operado por Confirmu limited ("nosotros" o "nuestro"). El acceso y el uso de los servicios está condicionado a la aceptación de los términos y condiciones. Estos Términos aplican a todos los visitantes, usuarios y otras personas que acceden al sitio o usan nuestro Servicio. Al acceder o usar nuestro Servicio estas aceptando los Términos y Condiciones. Si no estas de acuerdo con alguna parte de los Términos no podrás acceder al Servicio.</string>
+
+    <string-array name="questions">
+        <item>@string/hey</item>
+        <item>@string/whats_name</item>
+        <item>@string/full_name</item>
+        <item>@string/profile_pic</item>
+        <item>@string/email</item>
+        <item>@string/mobile_number</item>
+        <item>@string/aadhar</item>
+        <item>@string/social_account</item>
+        <item>@string/no_social_account</item>
+        <item>@string/gender</item>
+        <item>@string/choose_gender</item>
+        <item>@string/marital_status</item>
+        <item>@string/choose_marital_status</item>
+        <item>@string/age</item>
+        <item>@string/kids</item>
+        <item>@string/job_skills</item>
+        <item>@string/what_for_living</item>
+        <item>@string/want_to_add_job</item>
+    </string-array>
+
+    <string-array name="review_questions">
+        <item>@string/review_data</item>
+        <item>@string/do_you_like</item>
+        <item>@string/sure_to_submit</item>
+    </string-array>
+
+    <string name="pin_content_desc">Campo de PIN</string>
+
+    <string name="pin_label_text">PIN</string>
+    <string name="verification_id">verification_id</string>
+    <string name="bundle">bundle</string>
+    <string name="please_type">Por favor introduce el Código de Verificación enviado a %s</string>
+    <string name="please_type_mobile_number">Por favor introduce tu número de celular para recibir el código OTP</string>
+    <string name="get_started">Iniciemos</string>
+    <string name="please_enter_your_mobile_number">Por favor introduce tu número de celular</string>
+    <string name="title_activity_language_selection">activity_language_selection</string>
+    <string name="title_activity_lang">LangActivity</string>
+
+    <!--<string name="btn_en">English</string>-->
+    <!--<string name="btn_hi">हिन्दी</string>-->
+    <!--<string name="btn_es">Español</string>-->
+    <!--<string name="btn_in">Bahasa Indonesia</string>-->
+    <!--<string name="select_lang_text">Selecciona tu lenguaje</string>-->
+    <string name="enable_sms_service">Permitir Servicio de SMS</string>
+    <string name="enable_geo_location">Permitir Geo Localización</string>
+
+    <string name="valid_all_fields">Por favor rellena todos los campos</string>
+    <string name="valid_date">El formato de la fecha debe ser MM.AAAA</string>
+    <string name="valid_start_date">Por favor introduce una fecha de incio válida</string>
+    <string name="valid_end_date">Por favor introduce una fecha de finalización válida</string>
+
+    <string name="send_otp">Enviar OTP</string>
+    <string name="lets_go">Iniciemos</string>
+
+    <string name="type_otp_here">Introduce el código OTP</string>
+    <string name="resend">REENVIAR</string>
+    <string name="no_otp_code">No has recibido tu código?</string>
+    <string name="yes">Sí</string>
+    <string name="check_jobs">Comprobar trabajos</string>
+
+    <string name="my_loan">Mi Préstamo</string>
+    <string name="amount_requested">Cantidad Solicitada</string>
+    <string name="monthly_repayment">Pago Mensual</string>
+    <string name="loan_length">Duración del Préstamo</string>
+    <string name="home_loan">Préstamo Hipotecario</string>
+    <string name="wedding_loan">Préstamo de Boda</string>
+    <string name="car_loan">Préstamo de Automóvil</string>
+    <string name="wheeler_loan">Préstamo de Moto</string>
+    <string name="text_continue">Continuar</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="cancel">Cancelar</string>
+    <string name="married">Casado</string>
+    <string name="single">Soltero</string>
+    <string name="divorced">Divorciado</string>
+    <string name="monthly_payment">Pago Mensual</string>
+
+    <string name="intro_1_title">Bienvenido a ConfurmU - Su camino hacia la aprobación crediticia</string>
+    <string name="intro_1_subtitle">Por favor toma unos minutos para proporcionar la información necesaria para tu solicitud de préstamo</string>
+    <string name="intro_2_title">Permiso de SMS</string>
+    <string name="intro_2_subtitle">Creamos el perfil financiero de personas no bancarizadas por primera vez mediante el análisis de sus pagos por SMS</string>
+    <string name="intro_3_title">Permiso de Localización</string>
+    <string name="intro_3_subtitle">Al extraer el historial de geolocalización, podemos conocer la ubicación de la persona en relación a los indicadores demográficos sociales y su capacidad financiera para viajar</string>
+    <string name="text_submit">Enviar</string>
+    <string name="text_months">MESES</string>
+
+    <string name="add_skills">Agrega tus habilidades</string>
+    <string name="enter_skill">Empieza agregando tus habilidades</string>
+    <string name="message_hint">Introduce tu mensaje aquí</string>
+    <string name="text_connect">Conectar: </string>
+    <string name="aadhar_added">Información de Aadhar Agregada.</string>
+    <string name="save_position">Guardar Posición</string>
+
+    <string name="text_marital_status">Estado Civil</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_gender">Género</string>
+    <string name="text_age">Edad</string>
+    <string name="text_kids">Niños</string>
+    <string name="text_email">Email</string>
+    <string name="text_score">Puntaje</string>
+    <string name="text_refresh">ACTUALIZAR</string>
+    <string name="text_proceed">CONTINUAR</string>
+
+    <string name="result_thanks">Gracias por el tiempo con nosotros!</string>
+    <string name="result_analysis">Nuestros análisis muestran que eres elegible para</string>
+
+
+</resources>

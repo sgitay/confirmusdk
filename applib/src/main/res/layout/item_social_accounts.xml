@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selected_bg_img"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <com.confirmu.up.custom_views.RegularTextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/text_connect"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_marginStart="66dp"/>
+
+    <ImageView
+        android:id="@+id/iv_fb"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/fb_ripple"
+        android:src="@drawable/ic_fb_white"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:contentDescription="@string/app_name"/>
+    <ImageView
+        android:id="@+id/iv_linkedin"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/linkedin_ripple"
+        android:src="@drawable/ic_linkedin_logo"
+        android:padding="8dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/app_name"/>
+    <ImageView
+        android:id="@+id/iv_cancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/cancle_ripple"
+        android:src="@drawable/ic_close_black"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/app_name"/>
+
+</LinearLayout>

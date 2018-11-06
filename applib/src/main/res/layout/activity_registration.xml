@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="hideKeyboard">
+
+            <RelativeLayout
+                android:id="@+id/header_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.confirmu.up.custom_views.SemiBoldTextView
+                    android:id="@+id/tv_welcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/please_type_mobile_number"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.confirmu.up.custom_views.BoldTextView
+                    android:id="@+id/tv_enter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_welcome"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/get_started"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/middle_lay"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/header_lay"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="30dp">
+
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:id="@+id/tv_country_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:drawablePadding="5dp"
+                    android:gravity="start|center_vertical"
+                    android:minWidth="50dp"
+                    android:text="INDIA (+91)"
+                    android:textColor="@color/light_grey"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_move" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/tv_country_code"
+                    android:background="#e1e5e9" />
+
+
+            </RelativeLayout>
+
+            <com.confirmu.up.custom_views.RegularEditText
+                android:id="@+id/et_mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/middle_lay"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/please_enter_your_mobile_number"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/phone_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/et_mobile_number"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:background="#e1e5e9" />
+
+            <com.confirmu.up.custom_views.RegularEditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/phone_view"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/full_name"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/name_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/et_name"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:background="#e1e5e9" />
+
+            <com.confirmu.up.custom_views.RegularEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/name_view"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/email"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/email_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/et_email"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:background="#e1e5e9" />
+
+
+            <RelativeLayout
+                android:id="@+id/bottom_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email_view"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp">
+
+                <com.confirmu.up.custom_views.RegularTextView
+                    android:id="@+id/btn_go"
+                    android:layout_width="100dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/square_button_drawable"
+                    android:gravity="center"
+                    android:text="@string/send_otp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

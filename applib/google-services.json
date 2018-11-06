@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "640422771009",
+    "firebase_url": "https://confirmu-166420.firebaseio.com",
+    "project_id": "confirmu-166420",
+    "storage_bucket": "confirmu-166420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640422771009:android:648fd2fd54362584",
+        "android_client_info": {
+          "package_name": "com.confirmu.up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640422771009-ijva72lgmpdd2hioirrqdiht784o7b5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.confirmu.up",
+            "certificate_hash": "9b0c84e791904c26461fa295ced85970dbd8f16d"
+          }
+        },
+        {
+          "client_id": "640422771009-pgq3f6k0bhvn9u1v0f1dj5u02iisjcnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCTwlQUfeapKxxdQpOXQ6rjgy3vMIpaUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640422771009-pgq3f6k0bhvn9u1v0f1dj5u02iisjcnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
