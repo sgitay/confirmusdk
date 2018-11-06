@@ -17,8 +17,8 @@ include the appropriate dependency (or dependencies) listed below in your `app/b
 
     dependencies {
     ...
-    implementation 'com.github.sgitay.confirmusdk:applib:0.1.0'
-    implementation 'com.github.sgitay.confirmusdk:linkedin-sdk:0.1.0'
+    implementation 'com.github.sgitay.confirmusdk:applib:0.1.4'
+    implementation 'com.github.sgitay.confirmusdk:linkedin-sdk:0.1.4'
     ...
     }
 
@@ -31,3 +31,8 @@ You may also need to add the following to your `project/build.gradle` file.
 			maven { url 'https://jitpack.io' }
 		}
 	}
+
+SAMPLE APP
+------------
+You will get sample app within samples folder.
+emicalcy is a sample app used to calculate emi.
